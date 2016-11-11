@@ -1,0 +1,25 @@
+    body {
+        background-color: lightblue;
+		font-family: Georgia, "Times New Roman",Times, serif;
+	}
+
+    h1,h2,h3 {    /* multiple selections */
+		font-weight: bold;
+		font-size: 125%;
+    }
+    
+	#aSpecificID {  /* For <div id=aSpecificID”> */
+        color: red;
+    }
+
+	.warning { /* matches all elements containing class="warning" */
+		color: red;
+	}
+	
+    p { /* Style basic <p>s */
+        color: black;
+    }
+
+	p.someClass { /* matches all <p class=”someClass”> */
+        font-style: italic; 
+    }
