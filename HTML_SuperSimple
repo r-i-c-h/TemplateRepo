@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Some Title</title>
-    <link rel="stylesheet" media="all" href=/files/"styles.css">   <!-- Don't need ' type="text/css" ' w/HTML5 -->
+    <link rel="stylesheet" media="all" href="/files/styles.css">   <!-- Don't need ' type="text/css" ' w/HTML5 -->
 </head>
 <body>
     <h1>Something</h1>
