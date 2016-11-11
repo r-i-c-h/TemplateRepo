@@ -1,0 +1,44 @@
+!DOCTYPE 
+<html>
+  <head>
+    <title>Your Webpage Title Goes Here</title>
+  </head>
+  <body> <!-- now contains a header, main (possibly with articles), and footer.
+    <header>
+      Here is the header. Maybe add a Logo or a tagline.
+      <nav>
+        <!-- Use only for links in navigational menus -->
+      </nav>
+    </header>
+    <main>
+      <!-- <main> cannot be used inside of anything other than the <body> -->
+      <article>
+        Wrap an article in the article tag.
+        <aside>
+    			Here is an aside...You *can* use them outside of articles.
+        </aside>
+        <section>
+        	Sections are a major seperator
+        </section>
+        	Lorem Ipsum...
+        <address>
+          Here The address element is used for author contact.
+        </address>
+      </article>
+      <aside>
+        <!-- <aside> would also be used to mark a sidebar if used outside of <main> -->
+        <section>
+            <!--You can make a subsection of the aside-->
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <!--links to things like About Us, Contact, Other sections or nav...-->
+      <address>
+        <!--An address in the footer indicates the owner of the website -->
+      </address>
+    </footer>
+    
+  </body>
+</html>
