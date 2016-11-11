@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Some Title</title>
+    <meta name="description" content="A Webpage">
+    <meta name="author" content="@r-i-c-h">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+        <!-- Conditional Shivs if Browser is IE less than ver 9 (aka a pain in the arse) -->
+        <!--[if lt IE 9]>
+            <link href="Old_IntEx_CSS.css" rel="stylesheet" type="text/css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+<body>
+    Some Content
+    <hr>
+    <a href="http://www.google.com" target="_blank" title="A Link to pop up a new page">A Link</a>    
+
+<!-- Keep js scripts at bottom of page! -->
+    <!-- To add jQuery, uncomment the following:
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    -->
+    <script src="js/scripts.js" type="text/javascript"></script> <!-- Don't really need the 'type' part anymore -->
+</body> 
+</html>
